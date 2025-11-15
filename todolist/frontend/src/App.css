@@ -1,0 +1,88 @@
+body {
+  font-family: Arial;
+    background:#FFF8E7;
+
+}
+
+.container {
+  width: 500px;
+  margin: 150px auto;
+  background: #FFFFFF;
+  padding: 100px;
+  border-radius: 80px;
+  box-shadow: 0 0 100px lightgray;
+  text-align: center;
+}
+
+h1 {
+  color: #12171d;
+}
+
+.input-area {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.input-area input {
+  width: 50;
+  padding: 12px;
+  flex: 1;              /* makes input take remaining width */
+  border: 1px solid rgb(1, 14, 16);
+  border-radius: 20px;
+  background-color: #1F2937 (dark slate); 
+}
+
+.add-btn {
+  padding: 12px 20px;  
+  font-size: 16px;      
+  background-color: #F59E0B (amber yellow); 
+  color: rgb(19, 18, 18);
+  border-radius: 15x;
+  cursor: pointer;
+  border: 1px solid rgb(1, 14, 16);
+
+
+}
+
+
+button {
+  margin-left: 8px;
+  padding: 8px 10px;
+  background-color:#F87171 (soft coral);
+    color:#12171d;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+
+}
+
+
+
+ul {
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #d4ecf7;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.done-btn {
+  background-color:#10B981 ;
+    border-radius: 15px;
+    color:#12171d;
+
+
+
+}
