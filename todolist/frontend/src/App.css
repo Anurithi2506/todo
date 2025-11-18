@@ -60,9 +60,9 @@ button:disabled {
 
 
 .logout-btn {
-  display: block;            /* full-width button */
+  display: block;           
   width: 100%;
-  margin: 20px auto 0 auto; /* spacing from todo list */
+  margin: 20px auto 0 auto;
   border: none;
   border-radius: 12px;
   background-color: #ff4b5c;
@@ -76,31 +76,29 @@ button:disabled {
   background-color: #e03b4f;
 }
 
-/* ------------------ Todo Input Area ------------------ */
 input {
-  width: 100%;        /* full width of container */
-  max-width: 100%;    /* prevent overflow */
-  box-sizing: border-box;  /* include padding in width */
+  width: 100%;      
+  max-width: 100%;    
+  box-sizing: border-box;  
 }
 
 .todo-input-area {
   display: flex;
   justify-content: space-between;
-  gap: 10px;          /* spacing between input and button */
+  gap: 10px;         
 }
 
 .todo-input-area input {
-  flex: 1;            /* take available space without overflowing */
-  min-width: 0;       /* prevent flex shrink issues */
+  flex: 1;           
+  min-width: 0;       
 }
 
 
-/* ------------------ Todo List ------------------ */
+
 .todo-list {
   margin-top: 20px;
 }
 
-/* ------------------ Individual Todo ------------------ */
 .todo-item {
   display: flex;
   justify-content: space-between;
@@ -122,7 +120,6 @@ input {
   color: gray;
 }
 
-/* Buttons inside todo */
 .todo-item button {
   padding: 6px 14px;
   font-size: 14px;
